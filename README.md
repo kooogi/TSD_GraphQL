@@ -1,3 +1,28 @@
+# GraphQL API with Hot Chocolate
+
+This repository contains a GraphQL API built with Hot Chocolate in .NET.
+
+## Setup 
+
+### Cloning the Repository
+```bash
+git clone https://github.com/kooogi/GraphQL.git
+```
+
+### Using Codespaces
+1. Open the repository in a Codespace.
+2. Once the Codespace is ready, open the terminal.
+3. Build the project.
+```bash
+dotnet build
+```
+4. Run the project:
+```bash
+dotnet run --project "GraphQL/GraphQL.csproj"
+```
+
+You can access the GraphiQL interface in your browser by navigating to `http://localhost:5048/graphql/`.
+
 ## Task 1: Implement a Query to Retrieve All Authors
 
 **Description:**
